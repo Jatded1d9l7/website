@@ -13,9 +13,9 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/mortar.png"></a>
-                <div class="nav-links">
-                    <i class="fa fa-times"></i>
+            <a href="index.html"><img src="/mortar.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
                         <ul>
                             <li><a href="">HOME</a></li>
                             <li><a href="">ABOUT</a></li>
@@ -24,7 +24,7 @@
                             <li> <a href="">CONTACT</a></li>
                         </ul>  
                 </div>
-                <i class="fa fa-bars"></i>
+                <i class="fa fa-bars" onclick="showMenue()"></i>
         </nav>
         
     <div class="text-box">
@@ -35,7 +35,58 @@
 
     </section>
 
+<!-- Course -->
 
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                    <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, asperiores voluptas enim fuga dolorum exercitationem nihil, necessitatibus magni odit beatae quasi vel fugit recusandae, tempora at dolor dolore quibusdam fugiat?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, asperiores voluptas enim fuga dolorum exercitationem nihil, necessitatibus magni odit beatae quasi vel fugit recusandae, tempora at dolor dolore quibusdam fugiat?</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, asperiores voluptas enim fuga dolorum exercitationem nihil, necessitatibus magni odit beatae quasi vel fugit recusandae, tempora at dolor dolore quibusdam fugiat?</p>
+    </div>
+        </div>
+
+
+    </section>
+
+<!-- -----campus----- -->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="/mortar.png">
+            </div>
+        </div>
+
+    </section>
+
+
+<!-- ---- JavaScript for Toggle Menue -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = '0';
+        }
+
+        function hideMenu(){
+            navLinks.style.right = '200px';
+        }
+
+    </script>
 
 
 </body>
