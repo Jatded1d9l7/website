@@ -80,8 +80,8 @@ nav img {
 .hero-btn {
     display: inline-block;
     text-decoration: none;
-    color: aqua;
-    border: 1px solid aqua;
+    color: rgb(204, 211, 204);
+    border: 1px solid rgb(242, 252, 239);
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -90,8 +90,8 @@ nav img {
 }
 
 .hero-btn:hover {
-    border: 1px solid blueviolet;
-    background: blueviolet;
+    border: 1px solid rgb(91, 41, 138);
+    background: #491b74;
     transition: 1s;
 }
 
