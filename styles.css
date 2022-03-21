@@ -27,7 +27,7 @@ nav img {
 
 .nav-links {
     flex: 1;
-    text-align: left;
+    text-align: right;
 }
 
 .nav-links ul li {
@@ -47,7 +47,7 @@ nav img {
     content: "";
     width: 0%;
     height: 2px;
-    background: rgb(54, 35, 224);
+    background: rgb(123, 109, 250);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -59,7 +59,7 @@ nav img {
 
 .text-box {
     width: 90%;
-    color: rgb(54, 35, 224);
+    color: rgb(59, 51, 133);
     position:absolute;
     top: 50%;
     left: 50%;
