@@ -22,12 +22,12 @@ nav {
 }
 
 nav img {
-    width: 150px;
+    width: 100px;
 }
 
 .nav-links {
     flex: 1;
-    text-align: right;
+    text-align: left;
 }
 
 .nav-links ul li {
@@ -40,7 +40,7 @@ nav img {
 .nav-links ul li a {
     color: aqua;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .nav-links ul::after{
@@ -59,7 +59,7 @@ nav img {
 
 .text-box {
     width: 90%;
-    color: rgb(22, 18, 223);
+    color: rgb(54, 35, 224);
     position:absolute;
     top: 50%;
     left: 50%;
@@ -68,13 +68,13 @@ nav img {
 }
 
 .text-box h1 {
-    font-size: 62px;
+    font-size: 60px;
 }
 
 .text-box p {
     margin: 10px 0 40px;
     font-size: 14px;
-    color: aqua;
+    color: rgb(74, 151, 138);
 }
 
 .hero-btn {
