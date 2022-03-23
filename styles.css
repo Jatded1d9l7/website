@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/apothecary.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/triangle.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -38,7 +38,7 @@ nav img {
 }
 
 .nav-links ul li a {
-    color: aqua;
+    color: #3fc5f0;
     text-decoration: none;
     font-size: 14px;
 }
@@ -47,7 +47,7 @@ nav img {
     content: "";
     width: 0%;
     height: 2px;
-    background: rgb(123, 109, 250);
+    background: #3fc5f0;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -59,7 +59,7 @@ nav img {
 
 .text-box {
     width: 90%;
-    color: rgb(59, 51, 133);
+    color: #eef5b2;
     position:absolute;
     top: 50%;
     left: 50%;
@@ -68,13 +68,13 @@ nav img {
 }
 
 .text-box h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .text-box p {
     margin: 10px 0 40px;
     font-size: 14px;
-    color: rgb(74, 151, 138);
+    color: #eca06d;
 }
 
 .hero-btn {
@@ -90,8 +90,8 @@ nav img {
 }
 
 .hero-btn:hover {
-    border: 1px solid rgb(91, 41, 138);
-    background: #491b74;
+    border: 1px solid #3fc5f0;
+    background: #2f5df7;
     transition: 1s;
 }
 
